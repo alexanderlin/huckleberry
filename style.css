@@ -31,12 +31,9 @@ body {
 strong{
   color: hsl(105, 67%, 45%);
 }
-/*don't know why padding-left and padding-right don't help me with the width 100% being the same as the entire width of the parent element .indented-heading */
 .fade1{
   background-color: hsl(105, 67%, 45%);
   margin-bottom: -30px;
   width: initial;
   height: 10px;
-  /* padding-left: 30px;
-  padding-right: 100px; */
 }
