@@ -10,3 +10,33 @@ body {
 }
 
 /* Add styles here! */
+.main-wrapper {
+  background-color: hsl(0, 0%, 50%); 
+  padding-block: 20px;
+  margin-right: auto;
+}
+.card{
+  background-color: hsl(100,100%,100%);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.indented-heading{
+  background-color: hsl(39.3, 100%, 50%);
+  margin-left: -10px;
+  width: fit-content;
+}
+strong{
+  color: hsl(105, 67%, 45%);
+}
+/*don't know why padding-left and padding-right don't help me with the width 100% being the same as the entire width of the parent element .indented-heading */
+.fade1{
+  background-color: hsl(105, 67%, 45%);
+  margin-bottom: -30px;
+  width: initial;
+  height: 10px;
+  /* padding-left: 30px;
+  padding-right: 100px; */
+}
